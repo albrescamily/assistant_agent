@@ -1,0 +1,43 @@
+services:
+  llm:
+    build:
+      context: ./llm
+      args:
+        MODEL: ${MODEL}
+    env_file:
+      - ./llm/.env
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:                        
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  agent:
+    build:
+      context: ./agent
+    env_file:
+      - ./agent/.env
+    environment:
+      - MODEL=${MODEL}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      llm:
+        condition: service_healthy
+
+
+volumes:
+  ollama_data:
