@@ -26,6 +26,8 @@ def chat(message):
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": message},
     ]
-    response = client.chat.completions.create(
-        model=MODEL, messages=messages, reasoning_effort="none")
-    return response.choices[0].message.content
+    stream = client.chat.completions.create(
+        model=MODEL, messages=messages, reasoning_effort="none", stream=True)
+    for chunk in stream:
+        if chunk.choices and chunk.choices[0].delta.content:
+            yield chunk.choices[0].delta.content

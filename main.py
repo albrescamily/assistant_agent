@@ -1,3 +1,4 @@
+import codecs
 import json
 import os
 import urllib.error
@@ -18,7 +19,9 @@ def send(message):
     )
     try:
         with urllib.request.urlopen(request) as response:
-            return json.loads(response.read())["reply"]
+            decoder = codecs.getincrementaldecoder("utf-8")()
+            while chunk := response.read1(1024):
+                yield decoder.decode(chunk)
     except urllib.error.HTTPError as e:
         raise RuntimeError(json.loads(e.read()).get("error", e.reason))
 
@@ -42,12 +45,12 @@ def main():
             continue
 
         try:
-            reply = send(user_input)
+            print("\nassistant> ", end="", flush=True)
+            for text in send(user_input):
+                print(text, end="", flush=True)
+            print()
         except Exception as e:
             print(f"error: {e}")
-            continue
-
-        print(f"\nassistant> {reply}")
 
 
 if __name__ == "__main__":
