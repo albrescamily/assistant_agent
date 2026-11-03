@@ -1,11 +1,10 @@
-from openai import OpenAI
 from agent.memory import Memory
 import os
+from clients.llm import client
 from prompts.system_prompts import SYSTEM_PROMPT
 from tools.registry import TOOLS
 from agent.executor import run_tool
 
-client = OpenAI(base_url=os.environ["LLM_URL"], api_key="ollama")
 MODEL = os.environ["MODEL"]
 MEMORY_DB = os.environ.get("MEMORY_DB", "memory.db")
 
