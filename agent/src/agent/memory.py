@@ -3,9 +3,9 @@ from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
 
-SCHEMA = Path(__file__).parent / "sqlite.sql"
+SCHEMA = Path(__file__).parent.parent / "memory" / "sqlite.sql"
 
-
+#connects with the sqlite
 @contextmanager
 def connect(db_path):
     conn = sqlite3.connect(db_path, timeout=5.0)

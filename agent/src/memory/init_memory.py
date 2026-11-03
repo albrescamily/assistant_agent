@@ -1,5 +1,5 @@
 import os
-from memory import init_db
+from agent.memory import init_db
 
 if __name__ == "__main__":
     db_path = os.environ.get("MEMORY_DB", "memory.db")

@@ -1,5 +1,5 @@
 from openai import OpenAI
-from memory import Memory
+from agent.memory import Memory
 import os
 
 client = OpenAI(base_url=os.environ["LLM_URL"], api_key="ollama")
