@@ -24,7 +24,7 @@ Rules:
 """
 
 def chat(message, session_id):
-    memory = Memory(MEMORY_DB, session_id)  # this session's memory
+    memory = Memory(MEMORY_DB, session_id)
     history = memory.load_history()
 
     messages = [
@@ -42,5 +42,4 @@ def chat(message, session_id):
             reply.append(text)
             yield text
 
-    # only reached when the stream finished, so a failed answer is never saved
     memory.save_exchange(message, "".join(reply))
