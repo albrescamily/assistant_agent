@@ -1,7 +1,7 @@
 import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from assistant_agent.agent.src.agent.agent_loop import chat
+from agent.agent_loop import chat
 
 PORT = 8000
 
