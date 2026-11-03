@@ -30,6 +30,7 @@ services:
       - ./agent/.env
     environment:
       - MODEL=${MODEL}
+      - PHOENIX_COLLECTOR_ENDPOINT=http://phoenix:6006
     ports:
       - "8000:8000"
     volumes:
@@ -38,8 +39,17 @@ services:
     depends_on:
       llm:
         condition: service_healthy
+      phoenix:
+        condition: service_started
       pg-database:
         condition: service_healthy
+
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    environment:
+      - PHOENIX_ENABLE_AUTH=false  # local only: no login, agent sends traces without an API key
+    ports:
+      - "6006:6006"  # web UI + receives the traces
 
   pg-database:
     build:

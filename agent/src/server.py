@@ -1,6 +1,11 @@
 import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
+from phoenix.otel import register
+
+# must run before the OpenAI client is used, so every LLM call is traced
+register(project_name="emporio-agent", auto_instrument=True, protocol="http/protobuf")
+
 from agent.agent_loop import chat
 
 PORT = 8000
