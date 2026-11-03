@@ -38,3 +38,11 @@ class SearchProductsInput(BaseModel):
                       "Cordas Orquestrais", "Ukuleles"] | None = Field(default=None, description="Only if the request clearly fits one category.")
     max_price: float | None = Field(default=None, gt=0, description="Maximum price in BRL, only if the customer gave a budget.")
 
+
+class CheckProductInput(BaseModel):
+    """Get everything about a specific product in one call: if it can be bought right now (status, units in stock), its price with any active promotion already applied (final_price_brl), and its details (color, strings, wood, electronics). Use it when the customer names a product and asks about its availability, price, discount or details. It also finds products that are coming soon or discontinued."""
+
+    model_config = ConfigDict(extra="forbid", str_strip_whitespace=True)
+
+    name: str = Field(min_length=2, description="Brand and model of the product, without the instrument type, e.g. 'Yamaha C40' or 'Kala Barítono Cedar'.")
+

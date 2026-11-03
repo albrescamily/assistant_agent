@@ -59,3 +59,36 @@ def search_products(query, category=None, max_price=None):
             {"vector": str(vector), "category": category, "max_price": max_price},
         ).fetchall()
     return {"results": rows}
+
+
+def check_product(name):
+    patterns = [f"%{word}%" for word in name.split()]  # every word must be in the name, in any order
+    with connect() as conn:
+        products = conn.execute(
+            """
+            SELECT p.product_id, p.name, p.status, p.stock_quantity,
+                   p.price_brl, pr.discount_percent, pr.description AS promotion,
+                   round(p.price_brl * (1 - coalesce(pr.discount_percent, 0) / 100.0), 2) AS final_price_brl,
+                   c.name AS category, p.description, p.specs
+            FROM products p
+            JOIN categories c ON c.category_id = p.category_id
+            -- at most one active promotion per product (the biggest), so a product never comes back twice
+            LEFT JOIN LATERAL (
+                SELECT discount_percent, description
+                FROM promotions
+                WHERE product_id = p.product_id AND is_active
+                ORDER BY discount_percent DESC
+                LIMIT 1
+            ) pr ON true
+            WHERE p.name ILIKE ALL(%s)
+            LIMIT 3
+            """,
+            (patterns,),
+        ).fetchall()
+    if not products:
+        return {"error": "no product with this name"}
+
+    for product in products:
+        # spelled out so the model doesn't have to work out what 'coming_soon' or 0 units mean
+        product["available"] = product["status"] == "active" and product["stock_quantity"] > 0
+    return {"results": products}
