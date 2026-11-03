@@ -3,7 +3,7 @@ from contextlib import contextmanager
 from datetime import datetime
 from pathlib import Path
 
-SCHEMA = Path(__file__).parent / "memory" / "sqlite.sql"
+SCHEMA = Path(__file__).parent / "sqlite.sql"
 
 
 @contextmanager

@@ -38,6 +38,8 @@ services:
     depends_on:
       llm:
         condition: service_healthy
+      pg-database:
+        condition: service_healthy
 
   pg-database:
     build:

@@ -13,4 +13,5 @@ COPY src/ ./src/
 
 ENV PATH="/app/.venv/bin:$PATH"
 EXPOSE 8000
-CMD ["sh", "-c", "python src/init_memory.py && exec python src/server.py"]
+WORKDIR /app/src
+CMD ["sh", "-c", "python -m memory.init_memory && exec python server.py"]

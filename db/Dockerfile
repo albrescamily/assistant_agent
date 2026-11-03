@@ -1,3 +1,4 @@
 FROM postgres:17
 
-COPY *.sql /docker-entrypoint-initdb.d/
+COPY *.sql *.sh /docker-entrypoint-initdb.d/
+RUN chmod +x /docker-entrypoint-initdb.d/*.sh
