@@ -34,6 +34,7 @@ services:
       - "8000:8000"
     volumes:
       - ./data:/app/data
+      - agent_memory:/app/memory_data
     depends_on:
       llm:
         condition: service_healthy
@@ -57,3 +58,4 @@ services:
 volumes:
   ollama_data:
   pg_data:
+  agent_memory:

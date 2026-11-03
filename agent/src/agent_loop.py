@@ -1,8 +1,10 @@
 from openai import OpenAI
+from memory import Memory
 import os
 
 client = OpenAI(base_url=os.environ["LLM_URL"], api_key="ollama")
 MODEL = os.environ["MODEL"]
+MEMORY_DB = os.environ.get("MEMORY_DB", "memory.db")
 
 SYSTEM_PROMPT = """You are Melody, the assistant of a musical instrument store called Empório da Música.
 
@@ -22,13 +24,23 @@ Rules:
 """
 
 def chat(message, session_id):
-    # session_id is not used yet: the memory will be stored per session
+    memory = Memory(MEMORY_DB, session_id)  # this session's memory
+    history = memory.load_history()
+
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
+        *history,
         {"role": "user", "content": message},
     ]
     stream = client.chat.completions.create(
         model=MODEL, messages=messages, reasoning_effort="none", stream=True)
+
+    reply = []
     for chunk in stream:
         if chunk.choices and chunk.choices[0].delta.content:
-            yield chunk.choices[0].delta.content
+            text = chunk.choices[0].delta.content
+            reply.append(text)
+            yield text
+
+    # only reached when the stream finished, so a failed answer is never saved
+    memory.save_exchange(message, "".join(reply))
