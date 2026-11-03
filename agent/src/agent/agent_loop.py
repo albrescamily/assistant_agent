@@ -1,7 +1,7 @@
 from agent.memory import Memory
 import os
 from clients.llm import client
-from prompts.system_prompts import SYSTEM_PROMPT
+from prompts.system_prompts import build_system_prompt
 from tools.registry import TOOLS
 from agent.executor import run_tool
 
@@ -15,7 +15,7 @@ def chat(message, session_id):
     history = memory.load_history()
 
     messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "system", "content": build_system_prompt()},
         *history,
         {"role": "user", "content": message},
     ]
