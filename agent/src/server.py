@@ -29,6 +29,8 @@ class Handler(BaseHTTPRequestHandler):
             length = int(self.headers.get("Content-Length", 0))
             body = json.loads(self.rfile.read(length))
             span.set_attribute("session.id", body["session_id"])  # groups a conversation's turns in Phoenix's Sessions tab
+            if body.get("user_id"):
+                span.set_attribute("user.id", body["user_id"])  # the --user name saved in sessions.json; anonymous chats have none
             span.set_attribute("input.value", body["message"])
             stream = chat(body["message"], body["session_id"])
             first = next(stream, "")  # wait for the first chunk so model errors still return 502

@@ -36,10 +36,10 @@ def new_session(user):
     return session_id
 
 
-def send(session_id, message):
+def send(session_id, message, user=None):
     request = urllib.request.Request(
         f"{AGENT_URL}/chat",
-        data=json.dumps({"session_id": session_id, "message": message}).encode(),
+        data=json.dumps({"session_id": session_id, "message": message, "user_id": user}).encode(),
         headers={"Content-Type": "application/json"},
     )
     try:
@@ -89,7 +89,7 @@ def main():
 
         try:
             print("\nassistant> ", end="", flush=True)
-            for text in send(session_id, user_input):
+            for text in send(session_id, user_input, user):
                 print(text, end="", flush=True)
             print()
         except Exception as e:
