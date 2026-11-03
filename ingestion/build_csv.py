@@ -3,6 +3,7 @@ from pathlib import Path
 
 from clients.embedding import embed
 from sources.policies import chunk_policies
+from sources.products import read_products
 
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "generated"
 
@@ -22,3 +23,8 @@ if __name__ == "__main__":
     vectors = embed([chunk["text"] for chunk in chunks])
     save_csv(OUTPUT_DIR / "policy_chunks.csv", chunks, vectors)
     print(f"{len(chunks)} chunks written")
+
+    products = read_products()
+    vectors = embed([product["text"] for product in products])
+    save_csv(OUTPUT_DIR / "product_embeddings.csv", products, vectors)
+    print(f"{len(products)} products written")
