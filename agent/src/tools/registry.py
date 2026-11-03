@@ -2,8 +2,9 @@ from dataclasses import dataclass
 from typing import Callable
 from pydantic import BaseModel
 
-from tools.schemas import GetOrdersInput
-from tools.tools import get_orders
+from tools.schemas import GetOrdersInput, SearchPoliciesInput
+
+from tools.tools import get_orders, search_policies
 
 @dataclass(frozen=True)
 class Tool:
@@ -18,5 +19,13 @@ class Tool:
             "parameters": self.input_model.model_json_schema(),
         }}
 
-REGISTRY = {t.name: t for t in [Tool("get_orders", GetOrdersInput, get_orders)]}
+REGISTRY = {t.name: t for t in [
+    Tool("get_orders", GetOrdersInput, get_orders),
+    Tool("search_policies", SearchPoliciesInput, search_policies)
+    
+    
+    
+    ]}
+
+
 TOOLS = [t.spec() for t in REGISTRY.values()]

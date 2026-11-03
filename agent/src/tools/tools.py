@@ -1,4 +1,5 @@
 from tools.db_connection import connect
+from clients.embedding import embed
 
 
 def get_orders(email, order_id):
@@ -24,3 +25,18 @@ def get_orders(email, order_id):
             return {"error": "order not found for this email"}
 
         return order
+
+
+def search_policies(query):
+    vector = embed([query])[0]
+    with connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT section, content
+            FROM policy_chunks
+            ORDER BY embedding <=> %s::vector
+            LIMIT 4
+            """,
+            (str(vector),),
+        ).fetchall()
+    return {"results": rows}
