@@ -44,6 +44,16 @@ services:
       pg-database:
         condition: service_healthy
 
+  embedding:
+    image: ghcr.io/ggml-org/llama.cpp:server  # CPU-only build
+    command: -hf gpustack/bge-m3-GGUF:Q8_0 --embeddings --pooling cls --host 0.0.0.0 --port 8080
+    environment:
+      - LLAMA_CACHE=/models  # where -hf saves the downloaded model
+    ports:
+      - "8080:8080"
+    volumes:
+      - embedding_data:/models  # model download cache, survives restarts
+
   phoenix:
     image: arizephoenix/phoenix:latest
     environment:
@@ -71,3 +81,4 @@ volumes:
   ollama_data:
   pg_data:
   agent_memory:
+  embedding_data:

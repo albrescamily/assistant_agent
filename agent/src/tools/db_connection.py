@@ -4,7 +4,7 @@ from contextlib import contextmanager
 import psycopg
 from psycopg.rows import dict_row
 
-
+#postgreSQL
 @contextmanager
 def connect():
     conn = psycopg.connect(
@@ -21,3 +21,4 @@ def connect():
             yield conn
     finally:
         conn.close()
+
