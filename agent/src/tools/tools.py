@@ -26,7 +26,6 @@ def get_orders(email, order_id):
 
         return order
 
-
 def search_policies(query):
     vector = embed([query])[0]
     with connect() as conn:
@@ -38,5 +37,25 @@ def search_policies(query):
             LIMIT 4
             """,
             (str(vector),),
+        ).fetchall()
+    return {"results": rows}
+
+
+def search_products(query, category=None, max_price=None):
+    vector = embed([query])[0]
+    with connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT p.product_id, p.name, c.name AS category, p.price_brl, p.stock_quantity, p.description
+            FROM product_embeddings e
+            JOIN products p ON p.product_id = e.product_id
+            JOIN categories c ON c.category_id = p.category_id
+            WHERE p.status = 'active'
+              AND (%(category)s::text IS NULL OR c.name = %(category)s)
+              AND (%(max_price)s::numeric IS NULL OR p.price_brl <= %(max_price)s)
+            ORDER BY e.embedding <=> %(vector)s::vector
+            LIMIT 5
+            """,
+            {"vector": str(vector), "category": category, "max_price": max_price},
         ).fetchall()
     return {"results": rows}

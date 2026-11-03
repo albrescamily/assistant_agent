@@ -27,3 +27,14 @@ class SearchPoliciesInput(BaseModel):
     )
 
 
+class SearchProductsInput(BaseModel):
+    """Search the store's catalog. Use it for any product question: what the store has, the price of a model, options within a budget, or recommendations like 'violão para iniciante'. Never state a product, price or stock that didn't come from this tool."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    query: str = Field(description="What the customer wants, as a short phrase in Portuguese. Keep brand and model names as written, e.g. 'Takamine GD20'.")
+    category: Literal["Guitarras", "Baixos", "Baterias e Percussão", "Teclados e Pianos", "Violões",
+                      "Instrumentos de Sopro (Madeiras)", "Instrumentos de Sopro (Metais)",
+                      "Cordas Orquestrais", "Ukuleles"] | None = Field(default=None, description="Only if the request clearly fits one category.")
+    max_price: float | None = Field(default=None, gt=0, description="Maximum price in BRL, only if the customer gave a budget.")
+
