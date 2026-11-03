@@ -1,0 +1,6362 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "pol\u00edticas_da_loja",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 14217120355111229175,
+    "filename": "pol\u00edticas_da_loja.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/tables/3"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/groups/9"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/groups/10"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/22"
+        },
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        },
+        {
+          "$ref": "#/texts/25"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 148.32070575,
+            "t": 602.2802751341798,
+            "r": 446.9577095878321,
+            "b": 577.545479786067,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "EMP\u00d3RIO DA M\u00daSICA",
+      "text": "EMP\u00d3RIO DA M\u00daSICA",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.2338475,
+            "t": 563.4155272129102,
+            "r": 372.04283052891606,
+            "b": 551.9315142351646,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Sua m\u00fasica come\u00e7a aqui.",
+      "text": "Sua m\u00fasica come\u00e7a aqui.",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 102.7930695,
+            "t": 496.8569361425,
+            "r": 492.48252546000003,
+            "b": 480.95599570796537,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "MANUAL DE POL\u00cdTICAS E PROCEDIMENTOS",
+      "text": "MANUAL DE POL\u00cdTICAS E PROCEDIMENTOS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 230.0872425,
+            "t": 473.26952721291013,
+            "r": 365.1905179230762,
+            "b": 461.7855142351646,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Atendimento ao Cliente",
+      "text": "Atendimento ao Cliente",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 178.10433225,
+            "t": 387.48827987354497,
+            "r": 417.17256196674794,
+            "b": 349.65637429742765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "Rua 14 de Maio, 3200 - Centro Campo Grande - MS - CEP 79202-333 (67) 3341-4444 - contato@emporiodamusica.com.br",
+      "text": "Rua 14 de Maio, 3200 - Centro Campo Grande - MS - CEP 79202-333 (67) 3341-4444 - contato@emporiodamusica.com.br"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 176.3179665,
+            "t": 305.49218987354493,
+            "r": 418.95761748000007,
+            "b": 286.2648580002326,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "Vers\u00e3o 2.1 - Junho de 2025 Documento interno - Uso restrito da equipe de atendimento",
+      "text": "Vers\u00e3o 2.1 - Junho de 2025 Documento interno - Uso restrito da equipe de atendimento"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8226936439552,
+            "r": 279.4417570500001,
+            "b": 797.7556087855378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 748.8896484820898,
+            "r": 271.0582432319238,
+            "b": 736.5222508080335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "1. Sobre a Emp\u00f3rio da M\u00fasica",
+      "text": "1. Sobre a Emp\u00f3rio da M\u00fasica",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 723.6796868735448,
+            "r": 517.0571255055419,
+            "b": 684.1817681724276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            274
+          ]
+        }
+      ],
+      "orig": "A Emp\u00f3rio da M\u00fasica \u00e9 uma loja especializada em instrumentos musicais, fundada em 2008 em Campo Grande, Mato Grosso do Sul. Com mais de 15 anos de atua\u00e7\u00e3o no mercado, somos refer\u00eancia regional na venda de instrumentos para m\u00fasicos iniciantes, intermedi\u00e1rios e profissionais.",
+      "text": "A Emp\u00f3rio da M\u00fasica \u00e9 uma loja especializada em instrumentos musicais, fundada em 2008 em Campo Grande, Mato Grosso do Sul. Com mais de 15 anos de atua\u00e7\u00e3o no mercado, somos refer\u00eancia regional na venda de instrumentos para m\u00fasicos iniciantes, intermedi\u00e1rios e profissionais."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 673.6835928735449,
+            "r": 512.1770020859619,
+            "b": 618.8536431724276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "Nosso cat\u00e1logo abrange mais de 300 instrumentos de marcas nacionais e internacionais, incluindo guitarras, baixos, viol\u00f5es, baterias, teclados, instrumentos de sopro, cordas orquestrais e ukuleles. Trabalhamos exclusivamente com instrumentos musicais - n\u00e3o comercializamos acess\u00f3rios como cordas, palhetas, cabos, cases, pedais ou amplificadores.",
+      "text": "Nosso cat\u00e1logo abrange mais de 300 instrumentos de marcas nacionais e internacionais, incluindo guitarras, baixos, viol\u00f5es, baterias, teclados, instrumentos de sopro, cordas orquestrais e ukuleles. Trabalhamos exclusivamente com instrumentos musicais - n\u00e3o comercializamos acess\u00f3rios como cordas, palhetas, cabos, cases, pedais ou amplificadores."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 597.911133845,
+            "r": 132.6972654,
+            "b": 587.3105068886435,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "1.1 Miss\u00e3o",
+      "text": "1.1 Miss\u00e3o",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 577.5566398735449,
+            "r": 507.06203838596184,
+            "b": 538.0587211724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": "Democratizar o acesso a instrumentos musicais de qualidade na regi\u00e3o Centro-Oeste, oferecendo atendimento especializado e pre\u00e7os competitivos, contribuindo para o desenvolvimento cultural e musical da comunidade.",
+      "text": "Democratizar o acesso a instrumentos musicais de qualidade na regi\u00e3o Centro-Oeste, oferecendo atendimento especializado e pre\u00e7os competitivos, contribuindo para o desenvolvimento cultural e musical da comunidade."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 517.1162138450001,
+            "r": 200.05664094000002,
+            "b": 506.5155868886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "1.2 Dados da Empresa",
+      "text": "1.2 Dados da Empresa",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 286.58153763208975,
+            "r": 265.58613950458005,
+            "b": 274.21413995803346,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "2. Hor\u00e1rio de Funcionamento",
+      "text": "2. Hor\u00e1rio de Funcionamento",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 261.371579873545,
+            "r": 506.53982576096195,
+            "b": 237.20569142242766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "O atendimento presencial na loja segue os hor\u00e1rios abaixo. O atendimento via WhatsApp segue o mesmo hor\u00e1rio, com respostas autom\u00e1ticas fora do expediente.",
+      "text": "O atendimento presencial na loja segue os hor\u00e1rios abaixo. O atendimento via WhatsApp segue o mesmo hor\u00e1rio, com respostas autom\u00e1ticas fora do expediente."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 124.18726032104496,
+            "r": 477.97047418054194,
+            "b": 115.35340474492773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "Em datas especiais (Black Friday, Anivers\u00e1rio da Loja, Natal), o hor\u00e1rio pode ser estendido.",
+      "text": "Em datas especiais (Black Friday, Anivers\u00e1rio da Loja, Natal), o hor\u00e1rio pode ser estendido."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 72.0,
+            "t": 108.85522744604498,
+            "r": 519.853835380542,
+            "b": 100.02137186992763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "Altera\u00e7\u00f5es ser\u00e3o comunicadas com anteced\u00eancia nas redes sociais e no atendimento via WhatsApp.",
+      "text": "Altera\u00e7\u00f5es ser\u00e3o comunicadas com anteced\u00eancia nas redes sociais e no atendimento via WhatsApp."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57177664395499,
+            "r": 313.4177218590381,
+            "b": 35.504691785537716,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 2",
+      "text": "P\u00e1gina 2"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8227546439551,
+            "r": 279.4417570500001,
+            "b": 797.7556697855377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.0,
+            "t": 766.8896471920898,
+            "r": 237.62909300458006,
+            "b": 754.5222495180335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "3. Formas de Pagamento",
+      "text": "3. Formas de Pagamento",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.0,
+            "t": 741.6796868735448,
+            "r": 435.38966218054196,
+            "b": 732.8458312974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "Aceitamos as seguintes formas de pagamento para compras presenciais e online:",
+      "text": "Aceitamos as seguintes formas de pagamento para compras presenciais e online:"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 72.0,
+            "t": 577.784914345,
+            "r": 232.07812476000004,
+            "b": 567.1842873886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "3.1 Regras de Parcelamento",
+      "text": "3.1 Regras de Parcelamento",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.0,
+            "t": 557.4304198735449,
+            "r": 496.3614498359619,
+            "b": 534.2227846724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "\u00b7 Parcelamento em at\u00e9 3x: sem juros, sem valor m\u00ednimo de parcela (exceto abaixo de R$ 50,00).",
+      "text": "Parcelamento em at\u00e9 3x: sem juros, sem valor m\u00ednimo de parcela (exceto abaixo de R$ 50,00).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.0,
+            "t": 526.6828598735449,
+            "r": 401.368164205542,
+            "b": 517.8490042974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u00b7 Parcelamento de 4x a 6x: sem juros, parcela m\u00ednima de R$ 80,00.",
+      "text": "Parcelamento de 4x a 6x: sem juros, parcela m\u00ednima de R$ 80,00.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.0,
+            "t": 510.30907987354493,
+            "r": 412.48688090554197,
+            "b": 501.47522429742764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "\u00b7 Parcelamento de 7x a 12x: sem juros, parcela m\u00ednima de R$ 100,00.",
+      "text": "Parcelamento de 7x a 12x: sem juros, parcela m\u00ednima de R$ 100,00.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 90.0,
+            "t": 493.9352998735449,
+            "r": 515.5434899609619,
+            "b": 470.72766467242764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "\u00b7 Combina\u00e7\u00e3o de formas de pagamento: permitida (ex.: PIX + cart\u00e3o) para compras acima de R$ 2.000,00.",
+      "text": "Combina\u00e7\u00e3o de formas de pagamento: permitida (ex.: PIX + cart\u00e3o) para compras acima de R$ 2.000,00.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57177664395499,
+            "r": 313.4177218590381,
+            "b": 35.504691785537716,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 3",
+      "text": "P\u00e1gina 3"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8227546439551,
+            "r": 279.4417570500001,
+            "b": 797.7556697855377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 766.8896471920898,
+            "r": 300.6408983819238,
+            "b": 754.5222495180335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "4. Pol\u00edtica de Trocas e Devolu\u00e7\u00f5es",
+      "text": "4. Pol\u00edtica de Trocas e Devolu\u00e7\u00f5es",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 741.6796868735448,
+            "r": 505.7246882609619,
+            "b": 717.5137984224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "A Emp\u00f3rio da M\u00fasica segue as diretrizes do C\u00f3digo de Defesa do Consumidor (Lei n\u00ba 8.078/90) e oferece condi\u00e7\u00f5es claras para trocas e devolu\u00e7\u00f5es.",
+      "text": "A Emp\u00f3rio da M\u00fasica segue as diretrizes do C\u00f3digo de Defesa do Consumidor (Lei n\u00ba 8.078/90) e oferece condi\u00e7\u00f5es claras para trocas e devolu\u00e7\u00f5es."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 696.571288845,
+            "r": 347.37890604,
+            "b": 685.9706618886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "4.1 Direito de Arrependimento (Compras Online)",
+      "text": "4.1 Direito de Arrependimento (Compras Online)",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 676.2167968735449,
+            "r": 499.7293574609619,
+            "b": 653.0091616724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "\u00b7 O cliente pode solicitar a devolu\u00e7\u00e3o em at\u00e9 7 (sete) dias corridos ap\u00f3s o recebimento do produto, sem necessidade de justificativa.",
+      "text": "O cliente pode solicitar a devolu\u00e7\u00e3o em at\u00e9 7 (sete) dias corridos ap\u00f3s o recebimento do produto, sem necessidade de justificativa.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 645.4692398735449,
+            "r": 478.04812657499997,
+            "b": 622.2616046724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "\u00b7 O produto deve estar em sua embalagem original, sem sinais de uso, com todos os acess\u00f3rios e manuais.",
+      "text": "O produto deve estar em sua embalagem original, sem sinais de uso, com todos os acess\u00f3rios e manuais.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 614.7216798735449,
+            "r": 505.277859880542,
+            "b": 605.8878242974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "\u00b7 O reembolso ser\u00e1 realizado na mesma forma de pagamento original em at\u00e9 10 dias \u00fateis.",
+      "text": "O reembolso ser\u00e1 realizado na mesma forma de pagamento original em at\u00e9 10 dias \u00fateis.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 598.3478998735449,
+            "r": 415.84983515554194,
+            "b": 589.5140442974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "\u00b7 O frete de devolu\u00e7\u00e3o \u00e9 por conta da loja em caso de arrependimento.",
+      "text": "O frete de devolu\u00e7\u00e3o \u00e9 por conta da loja em caso de arrependimento.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 569.5297843449999,
+            "r": 197.37304668000002,
+            "b": 558.9291573886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "4.2 Trocas por Defeito",
+      "text": "4.2 Trocas por Defeito",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 549.1752898735449,
+            "r": 519.164919975,
+            "b": 525.9676546724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            103
+          ]
+        }
+      ],
+      "orig": "\u00b7 Produtos com defeito de fabrica\u00e7\u00e3o podem ser trocados em at\u00e9 30 (trinta) dias corridos ap\u00f3s a compra.",
+      "text": "Produtos com defeito de fabrica\u00e7\u00e3o podem ser trocados em at\u00e9 30 (trinta) dias corridos ap\u00f3s a compra.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 518.4277298735449,
+            "r": 513.6302161109618,
+            "b": 495.22009467242765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "\u00b7 Ap\u00f3s os 30 dias, o cliente deve acionar a garantia diretamente com o fabricante. A Emp\u00f3rio da M\u00fasica pode intermediar o processo mediante solicita\u00e7\u00e3o.",
+      "text": "Ap\u00f3s os 30 dias, o cliente deve acionar a garantia diretamente com o fabricante. A Emp\u00f3rio da M\u00fasica pode intermediar o processo mediante solicita\u00e7\u00e3o.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 487.68017987354494,
+            "r": 520.3121066609618,
+            "b": 464.47254467242766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "\u00b7 Danos causados por mau uso, quedas, exposi\u00e7\u00e3o a umidade excessiva ou modifica\u00e7\u00f5es n\u00e3o autorizadas n\u00e3o s\u00e3o cobertos.",
+      "text": "Danos causados por mau uso, quedas, exposi\u00e7\u00e3o a umidade excessiva ou modifica\u00e7\u00f5es n\u00e3o autorizadas n\u00e3o s\u00e3o cobertos.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 444.48828434499995,
+            "r": 222.07617168000004,
+            "b": 433.88765738864356,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "4.3 Trocas por Prefer\u00eancia",
+      "text": "4.3 Trocas por Prefer\u00eancia",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 424.13378987354497,
+            "r": 491.0019504359619,
+            "b": 400.9261546724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "\u00b7 Trocas por prefer\u00eancia (cor, modelo, tamanho) s\u00e3o permitidas em at\u00e9 7 dias, mediante disponibilidade do produto desejado.",
+      "text": "Trocas por prefer\u00eancia (cor, modelo, tamanho) s\u00e3o permitidas em at\u00e9 7 dias, mediante disponibilidade do produto desejado.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 393.38622987354495,
+            "r": 402.50543563054197,
+            "b": 384.55237429742766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "\u00b7 O produto deve estar em perfeito estado e na embalagem original.",
+      "text": "O produto deve estar em perfeito estado e na embalagem original.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 377.01244987354494,
+            "r": 424.713519880542,
+            "b": 368.17859429742765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "\u00b7 Diferen\u00e7as de valor ser\u00e3o cobradas ou reembolsadas conforme o caso.",
+      "text": "Diferen\u00e7as de valor ser\u00e3o cobradas ou reembolsadas conforme o caso.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 348.19433434499996,
+            "r": 265.42382991,
+            "b": 337.59370738864357,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "4.4 Itens N\u00e3o Eleg\u00edveis para Troca",
+      "text": "4.4 Itens N\u00e3o Eleg\u00edveis para Troca",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 327.83983987354486,
+            "r": 508.6212293055419,
+            "b": 319.00598429742763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            87
+          ]
+        }
+      ],
+      "orig": "\u00b7 Instrumentos com personaliza\u00e7\u00e3o ou ajustes sob encomenda (setup, regulagem especial).",
+      "text": "Instrumentos com personaliza\u00e7\u00e3o ou ajustes sob encomenda (setup, regulagem especial).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 311.4658198735449,
+            "r": 489.61011935554194,
+            "b": 302.63196429742766,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "\u00b7 Produtos adquiridos em promo\u00e7\u00f5es de liquida\u00e7\u00e3o com aviso expl\u00edcito de \"venda final\".",
+      "text": "Produtos adquiridos em promo\u00e7\u00f5es de liquida\u00e7\u00e3o com aviso expl\u00edcito de \"venda final\".",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 295.09227987354484,
+            "r": 382.518093880542,
+            "b": 286.2584242974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "\u00b7 Boquilhas de instrumentos de sopro, por quest\u00f5es de higiene.",
+      "text": "Boquilhas de instrumentos de sopro, por quest\u00f5es de higiene.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 238.83105763208982,
+            "r": 271.0787363819238,
+            "b": 226.46365995803353,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "5. Pol\u00edtica de Frete e Entregas",
+      "text": "5. Pol\u00edtica de Frete e Entregas",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 209.176753845,
+            "r": 392.73632610000004,
+            "b": 198.57612688864356,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "5.1 Entregas na Regi\u00e3o Metropolitana de Campo Grande",
+      "text": "5.1 Entregas na Regi\u00e3o Metropolitana de Campo Grande",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 188.82177987354487,
+            "r": 314.151204430542,
+            "b": 179.98792429742764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "\u00b7 Frete gr\u00e1tis para pedidos acima de R$ 500,00.",
+      "text": "Frete gr\u00e1tis para pedidos acima de R$ 500,00.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 172.44823987354494,
+            "r": 364.74675170554195,
+            "b": 163.6143842974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "\u00b7 Para pedidos abaixo de R$ 500,00, taxa fixa de R$ 35,00.",
+      "text": "Para pedidos abaixo de R$ 500,00, taxa fixa de R$ 35,00.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 156.07470987354486,
+            "r": 260.261083855542,
+            "b": 147.24085429742763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "\u00b7 Prazo de entrega: 1 a 3 dias \u00fateis.",
+      "text": "Prazo de entrega: 1 a 3 dias \u00fateis.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 90.0,
+            "t": 139.7006798735449,
+            "r": 494.19929246096194,
+            "b": 116.49280017242768,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\u00b7 Entrega realizada por motoboy pr\u00f3prio. O cliente ser\u00e1 contactado por telefone antes da entrega.",
+      "text": "Entrega realizada por motoboy pr\u00f3prio. O cliente ser\u00e1 contactado por telefone antes da entrega.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 72.0,
+            "t": 96.50878434499998,
+            "r": 264.0761754,
+            "b": 85.90815738864353,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "5.2 Entregas para Outras Cidades",
+      "text": "5.2 Entregas para Outras Cidades",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57202664395504,
+            "r": 313.4177218590381,
+            "b": 35.50494178553777,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 4",
+      "text": "P\u00e1gina 4"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8225106439552,
+            "r": 279.4417570500001,
+            "b": 797.7554257855378,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 767.7783198735449,
+            "r": 515.1786974609619,
+            "b": 743.6124314224277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "Utilizamos os servi\u00e7os dos Correios (PAC e SEDEX) e da transportadora Jadlog para envios fora da regi\u00e3o metropolitana de Campo Grande.",
+      "text": "Utilizamos os servi\u00e7os dos Correios (PAC e SEDEX) e da transportadora Jadlog para envios fora da regi\u00e3o metropolitana de Campo Grande."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 630.5942403210449,
+            "r": 523.1828459417479,
+            "b": 591.0960778699276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "orig": "O valor do frete \u00e9 calculado automaticamente com base no CEP de destino, peso e dimens\u00f5es do produto. Instrumentos de grande porte (baterias ac\u00fasticas, pianos digitais, contrabaixos) podem exigir frete especial com cota\u00e7\u00e3o individual.",
+      "text": "O valor do frete \u00e9 calculado automaticamente com base no CEP de destino, peso e dimens\u00f5es do produto. Instrumentos de grande porte (baterias ac\u00fasticas, pianos digitais, contrabaixos) podem exigir frete especial com cota\u00e7\u00e3o individual."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 580.5981398735448,
+            "r": 518.185240760962,
+            "b": 556.4320106724276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "Todos os envios incluem seguro contra extravios e danos durante o transporte. Em caso de avaria, o cliente deve recusar o recebimento e entrar em contato imediatamente com a loja.",
+      "text": "Todos os envios incluem seguro contra extravios e danos durante o transporte. Em caso de avaria, o cliente deve recusar o recebimento e entrar em contato imediatamente com a loja."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 535.489743845,
+            "r": 234.03515598,
+            "b": 524.8891168886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "5.3 C\u00f3digo de Rastreamento",
+      "text": "5.3 C\u00f3digo de Rastreamento",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 72.0,
+            "t": 515.1347698735449,
+            "r": 515.4133007609619,
+            "b": 460.30482017242764,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "O c\u00f3digo de rastreamento \u00e9 enviado automaticamente por e-mail e WhatsApp assim que o pedido \u00e9 despachado. O formato padr\u00e3o \u00e9 BR seguido de 9 caracteres alfanum\u00e9ricos e BR (exemplo: BR4K7M2X9P1BR). O rastreamento pode ser consultado diretamente no site dos Correios ou da Jadlog.",
+      "text": "O c\u00f3digo de rastreamento \u00e9 enviado automaticamente por e-mail e WhatsApp assim que o pedido \u00e9 despachado. O formato padr\u00e3o \u00e9 BR seguido de 9 caracteres alfanum\u00e9ricos e BR (exemplo: BR4K7M2X9P1BR). O rastreamento pode ser consultado diretamente no site dos Correios ou da Jadlog."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57226664395512,
+            "r": 313.4177218590381,
+            "b": 35.50518178553773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 5",
+      "text": "P\u00e1gina 5"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8222656439551,
+            "r": 279.4417570500001,
+            "b": 797.7551807855377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 766.8896471920898,
+            "r": 250.8556553819238,
+            "b": 754.5222495180335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "6. Promo\u00e7\u00f5es e Descontos",
+      "text": "6. Promo\u00e7\u00f5es e Descontos",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 737.235350845,
+            "r": 203.15039052000003,
+            "b": 726.6347238886435,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "6.1 Tipos de Promo\u00e7\u00e3o",
+      "text": "6.1 Tipos de Promo\u00e7\u00e3o",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 716.8808588735449,
+            "r": 490.95482219999997,
+            "b": 692.7149704224277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "A Emp\u00f3rio da M\u00fasica realiza promo\u00e7\u00f5es peri\u00f3dicas ao longo do ano. As principais campanhas incluem:",
+      "text": "A Emp\u00f3rio da M\u00fasica realiza promo\u00e7\u00f5es peri\u00f3dicas ao longo do ano. As principais campanhas incluem:"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 682.2167968735449,
+            "r": 457.5132704055419,
+            "b": 673.3829412974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            77
+          ]
+        }
+      ],
+      "orig": "\u00b7 Anivers\u00e1rio da Loja (Agosto): descontos de 10% a 25% em itens selecionados.",
+      "text": "Anivers\u00e1rio da Loja (Agosto): descontos de 10% a 25% em itens selecionados.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 665.8432598735449,
+            "r": 428.042324980542,
+            "b": 657.0094042974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "\u00b7 Black Friday (Novembro): descontos de 15% a 30% em todo o cat\u00e1logo.",
+      "text": "Black Friday (Novembro): descontos de 15% a 30% em todo o cat\u00e1logo.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 649.4692398735449,
+            "r": 472.48767815554197,
+            "b": 640.6353842974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "\u00b7 Volta \u00e0s Aulas (Fevereiro): descontos especiais em instrumentos para estudantes.",
+      "text": "Volta \u00e0s Aulas (Fevereiro): descontos especiais em instrumentos para estudantes.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 633.0956998735448,
+            "r": 421.414049980542,
+            "b": 624.2618442974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "\u00b7 Queima de Estoque: promo\u00e7\u00f5es pontuais para renova\u00e7\u00e3o de cat\u00e1logo.",
+      "text": "Queima de Estoque: promo\u00e7\u00f5es pontuais para renova\u00e7\u00e3o de cat\u00e1logo.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 616.7216798735449,
+            "r": 465.268998355542,
+            "b": 607.8878242974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "\u00b7 Semana do M\u00fasico: promo\u00e7\u00f5es na semana do Dia do M\u00fasico (22 de novembro).",
+      "text": "Semana do M\u00fasico: promo\u00e7\u00f5es na semana do Dia do M\u00fasico (22 de novembro).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 587.903324345,
+            "r": 218.73046860000002,
+            "b": 577.3026973886437,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "6.2 Regras de Promo\u00e7\u00f5es",
+      "text": "6.2 Regras de Promo\u00e7\u00f5es",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 567.5493198735448,
+            "r": 498.7010344109619,
+            "b": 543.3829446724276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            113
+          ]
+        }
+      ],
+      "orig": "Cumulatividade: promo\u00e7\u00f5es n\u00e3o s\u00e3o cumulativas. O desconto de PIX (5%) n\u00e3o se aplica sobre pre\u00e7os j\u00e1 promocionais.",
+      "text": "Cumulatividade: promo\u00e7\u00f5es n\u00e3o s\u00e3o cumulativas. O desconto de PIX (5%) n\u00e3o se aplica sobre pre\u00e7os j\u00e1 promocionais."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 532.8852498735448,
+            "r": 499.87249826096195,
+            "b": 508.71887467242755,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "Estoque: promo\u00e7\u00f5es est\u00e3o sujeitas \u00e0 disponibilidade de estoque. Produtos esgotados durante a promo\u00e7\u00e3o n\u00e3o geram direito a rain check (reserva de pre\u00e7o).",
+      "text": "Estoque: promo\u00e7\u00f5es est\u00e3o sujeitas \u00e0 disponibilidade de estoque. Produtos esgotados durante a promo\u00e7\u00e3o n\u00e3o geram direito a rain check (reserva de pre\u00e7o)."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 498.221189873545,
+            "r": 502.60090826096194,
+            "b": 474.05481467242765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Comunica\u00e7\u00e3o: pre\u00e7os promocionais devem sempre ser apresentados junto ao pre\u00e7o original e o percentual de desconto, para total transpar\u00eancia ao cliente.",
+      "text": "Comunica\u00e7\u00e3o: pre\u00e7os promocionais devem sempre ser apresentados junto ao pre\u00e7o original e o percentual de desconto, para total transpar\u00eancia ao cliente."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 425.66894763208984,
+            "r": 269.46678785458005,
+            "b": 413.30154995803343,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "7. Atendimento via WhatsApp",
+      "text": "7. Atendimento via WhatsApp",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 400.45897987354493,
+            "r": 494.8646999609619,
+            "b": 376.2930914224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            181
+          ]
+        }
+      ],
+      "orig": "O canal de WhatsApp (67) 3321-4500 \u00e9 o principal meio de atendimento remoto da Emp\u00f3rio da M\u00fasica. O atendimento pode ser realizado por atendentes humanos ou pelo assistente virtual.",
+      "text": "O canal de WhatsApp (67) 3321-4500 \u00e9 o principal meio de atendimento remoto da Emp\u00f3rio da M\u00fasica. O atendimento pode ser realizado por atendentes humanos ou pelo assistente virtual."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 355.35058384499996,
+            "r": 240.70898409000003,
+            "b": 344.74995688864357,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "7.1 Diretrizes de Atendimento",
+      "text": "7.1 Diretrizes de Atendimento",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 334.99657987354493,
+            "r": 503.1719699609619,
+            "b": 295.4981744224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "Tom de voz: informal mas profissional. O cliente deve se sentir acolhido, como se estivesse conversando com um amigo que entende de m\u00fasica. Evitar linguagem excessivamente formal ou robotizada.",
+      "text": "Tom de voz: informal mas profissional. O cliente deve se sentir acolhido, como se estivesse conversando com um amigo que entende de m\u00fasica. Evitar linguagem excessivamente formal ou robotizada."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 284.999999873545,
+            "r": 519.648578380542,
+            "b": 260.83411142242767,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Tempo de resposta: m\u00e1ximo de 5 minutos durante o hor\u00e1rio de funcionamento. Fora do expediente, o assistente virtual deve informar o hor\u00e1rio de retorno.",
+      "text": "Tempo de resposta: m\u00e1ximo de 5 minutos durante o hor\u00e1rio de funcionamento. Fora do expediente, o assistente virtual deve informar o hor\u00e1rio de retorno."
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 250.33593987354493,
+            "r": 518.165252941748,
+            "b": 226.17005142242772,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "Informa\u00e7\u00f5es precisas: nunca fornecer informa\u00e7\u00f5es sobre pre\u00e7os, estoque ou prazos sem consultar o sistema. Informa\u00e7\u00f5es incorretas geram frustra\u00e7\u00e3o e podem configurar propaganda enganosa.",
+      "text": "Informa\u00e7\u00f5es precisas: nunca fornecer informa\u00e7\u00f5es sobre pre\u00e7os, estoque ou prazos sem consultar o sistema. Informa\u00e7\u00f5es incorretas geram frustra\u00e7\u00e3o e podem configurar propaganda enganosa."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 215.6718698735449,
+            "r": 513.7087671555419,
+            "b": 176.1744401724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "Escopo: o atendente deve informar que a loja trabalha exclusivamente com instrumentos musicais. Pedidos de acess\u00f3rios (cordas, cabos, palhetas, pedais, amplificadores, cases) devem ser educadamente redirecionados. Sugerir lojas parceiras quando poss\u00edvel.",
+      "text": "Escopo: o atendente deve informar que a loja trabalha exclusivamente com instrumentos musicais. Pedidos de acess\u00f3rios (cordas, cabos, palhetas, pedais, amplificadores, cases) devem ser educadamente redirecionados. Sugerir lojas parceiras quando poss\u00edvel."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 72.0,
+            "t": 155.23144384500006,
+            "r": 262.03124802,
+            "b": 144.6308168886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "7.2 Fluxo de Atendimento Padr\u00e3o",
+      "text": "7.2 Fluxo de Atendimento Padr\u00e3o",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 134.87694987354485,
+            "r": 515.8594325055419,
+            "b": 126.04309429742761,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "1. Sauda\u00e7\u00e3o: cumprimentar o cliente pelo nome (se dispon\u00edvel) e perguntar como pode ajudar.",
+      "text": "Sauda\u00e7\u00e3o: cumprimentar o cliente pelo nome (se dispon\u00edvel) e perguntar como pode ajudar.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 90.0,
+            "t": 118.50341987354489,
+            "r": 516.4258761555419,
+            "b": 95.29602992242758,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "2. Entendimento: identificar a necessidade do cliente (busca de produto, d\u00favida, rastreamento, reclama\u00e7\u00e3o).",
+      "text": "Entendimento: identificar a necessidade do cliente (busca de produto, d\u00favida, rastreamento, reclama\u00e7\u00e3o).",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57226664395512,
+            "r": 313.4177218590381,
+            "b": 35.50518178553773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 6",
+      "text": "P\u00e1gina 6"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8222656439551,
+            "r": 279.4417570500001,
+            "b": 797.7551807855377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 767.7783198735449,
+            "r": 487.49667673054205,
+            "b": 744.5704401724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "3. Consulta: buscar no sistema as informa\u00e7\u00f5es relevantes (produto, estoque, promo\u00e7\u00e3o, pedido).",
+      "text": "Consulta: buscar no sistema as informa\u00e7\u00f5es relevantes (produto, estoque, promo\u00e7\u00e3o, pedido).",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 737.0307608735449,
+            "r": 480.277832305542,
+            "b": 728.1969052974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "4. Resposta: apresentar as op\u00e7\u00f5es de forma clara e objetiva, com pre\u00e7os e condi\u00e7\u00f5es.",
+      "text": "Resposta: apresentar as op\u00e7\u00f5es de forma clara e objetiva, com pre\u00e7os e condi\u00e7\u00f5es.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 720.6567378735449,
+            "r": 468.57556396674806,
+            "b": 697.4493479224277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            95
+          ]
+        }
+      ],
+      "orig": "5. Fechamento: confirmar se o cliente precisa de mais alguma coisa e encerrar com cordialidade.",
+      "text": "Fechamento: confirmar se o cliente precisa de mais alguma coisa e encerrar com cordialidade.",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 677.464843345,
+            "r": 207.41015598000004,
+            "b": 666.8642163886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "7.3 Situa\u00e7\u00f5es Especiais",
+      "text": "7.3 Situa\u00e7\u00f5es Especiais",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 657.1103498735449,
+            "r": 508.16026076096193,
+            "b": 617.6124311724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "Produto fora de estoque: informar que o produto est\u00e1 temporariamente indispon\u00edvel e sugerir alternativas semelhantes que estejam dispon\u00edveis. Nunca confirmar disponibilidade sem verificar o estoque atual.",
+      "text": "Produto fora de estoque: informar que o produto est\u00e1 temporariamente indispon\u00edvel e sugerir alternativas semelhantes que estejam dispon\u00edveis. Nunca confirmar disponibilidade sem verificar o estoque atual."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 607.114749873545,
+            "r": 519.234859875,
+            "b": 582.9483746724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "Produto descontinuado: informar que o produto n\u00e3o faz mais parte do cat\u00e1logo e oferecer modelos equivalentes ou sucessores.",
+      "text": "Produto descontinuado: informar que o produto n\u00e3o faz mais parte do cat\u00e1logo e oferecer modelos equivalentes ou sucessores."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 572.4506798735449,
+            "r": 520.933608710962,
+            "b": 532.9522744224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            249
+          ]
+        }
+      ],
+      "orig": "Promo\u00e7\u00e3o expirada: caso o cliente pergunte sobre uma promo\u00e7\u00e3o, verificar se ela encontra-se ativa no sistema. Se a promo\u00e7\u00e3o estiver vencida, informar com transpar\u00eancia e apresentar o pre\u00e7o atual. Nunca prometer um desconto que n\u00e3o est\u00e1 mais vigente.",
+      "text": "Promo\u00e7\u00e3o expirada: caso o cliente pergunte sobre uma promo\u00e7\u00e3o, verificar se ela encontra-se ativa no sistema. Se a promo\u00e7\u00e3o estiver vencida, informar com transpar\u00eancia e apresentar o pre\u00e7o atual. Nunca prometer um desconto que n\u00e3o est\u00e1 mais vigente."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 522.4540998735449,
+            "r": 517.0473323805419,
+            "b": 498.28821142242765,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Reclama\u00e7\u00e3o: ouvir o cliente com empatia, registrar a reclama\u00e7\u00e3o e encaminhar para o respons\u00e1vel. Prazo de retorno: 24 horas \u00fateis.",
+      "text": "Reclama\u00e7\u00e3o: ouvir o cliente com empatia, registrar a reclama\u00e7\u00e3o e encaminhar para o respons\u00e1vel. Prazo de retorno: 24 horas \u00fateis."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 449.90234763208986,
+            "r": 144.32919673192384,
+            "b": 437.5349499580335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "8. Garantia",
+      "text": "8. Garantia",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 420.248043845,
+            "r": 175.37695293,
+            "b": 409.6474168886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "8.1 Garantia Legal",
+      "text": "8.1 Garantia Legal",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 399.89354987354494,
+            "r": 510.4337470305419,
+            "b": 375.7276614224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "Conforme o C\u00f3digo de Defesa do Consumidor, todos os produtos possuem garantia legal de 90 (noventa) dias contra defeitos de fabrica\u00e7\u00e3o, contados a partir da data de recebimento pelo cliente.",
+      "text": "Conforme o C\u00f3digo de Defesa do Consumidor, todos os produtos possuem garantia legal de 90 (noventa) dias contra defeitos de fabrica\u00e7\u00e3o, contados a partir da data de recebimento pelo cliente."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 354.78515384499997,
+            "r": 222.71484381000005,
+            "b": 344.1845268886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "8.2 Garantia do Fabricante",
+      "text": "8.2 Garantia do Fabricante",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 334.43114987354494,
+            "r": 515.9892566609619,
+            "b": 294.9327444224276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "Al\u00e9m da garantia legal, a maioria dos fabricantes oferece garantia pr\u00f3pria que pode variar de 6 meses a 2 anos. Os prazos e condi\u00e7\u00f5es espec\u00edficos est\u00e3o detalhados no certificado de garantia que acompanha cada produto.",
+      "text": "Al\u00e9m da garantia legal, a maioria dos fabricantes oferece garantia pr\u00f3pria que pode variar de 6 meses a 2 anos. Os prazos e condi\u00e7\u00f5es espec\u00edficos est\u00e3o detalhados no certificado de garantia que acompanha cada produto."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 273.9902338449999,
+            "r": 252.05273418000004,
+            "b": 263.3896068886436,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "8.3 O que N\u00e3o Cobre a Garantia",
+      "text": "8.3 O que N\u00e3o Cobre a Garantia",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 253.63622987354483,
+            "r": 422.487866830542,
+            "b": 244.8023742974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            74
+          ]
+        }
+      ],
+      "orig": "\u00b7 Desgaste natural de pe\u00e7as (trastes, cordas, feltros, palhetas de sopro).",
+      "text": "Desgaste natural de pe\u00e7as (trastes, cordas, feltros, palhetas de sopro).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 237.26220987354486,
+            "r": 428.598737380542,
+            "b": 228.42835429742763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "\u00b7 Danos por mau uso, queda, exposi\u00e7\u00e3o a condi\u00e7\u00f5es clim\u00e1ticas extremas.",
+      "text": "Danos por mau uso, queda, exposi\u00e7\u00e3o a condi\u00e7\u00f5es clim\u00e1ticas extremas.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 220.88866987354493,
+            "r": 400.26506480554195,
+            "b": 212.0548142974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "\u00b7 Modifica\u00e7\u00f5es ou reparos realizados por terceiros n\u00e3o autorizados.",
+      "text": "Modifica\u00e7\u00f5es ou reparos realizados por terceiros n\u00e3o autorizados.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/9"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 90.0,
+            "t": 204.51464987354484,
+            "r": 398.63000615554193,
+            "b": 195.6807942974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "\u00b7 Danos est\u00e9ticos que n\u00e3o afetem a funcionalidade do instrumento.",
+      "text": "Danos est\u00e9ticos que n\u00e3o afetem a funcionalidade do instrumento.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 148.25292763208984,
+            "r": 308.41628623192383,
+            "b": 135.88552995803354,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "9. Privacidade e Prote\u00e7\u00e3o de Dados",
+      "text": "9. Privacidade e Prote\u00e7\u00e3o de Dados",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 72.0,
+            "t": 123.04296987354485,
+            "r": 518.4728679086915,
+            "b": 83.54505117242763,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "A Emp\u00f3rio da M\u00fasica est\u00e1 em conformidade com a Lei Geral de Prote\u00e7\u00e3o de Dados (LGPD - Lei n\u00ba 13.709/2018). Os dados pessoais coletados durante o atendimento (nome, telefone, e-mail, endere\u00e7o) s\u00e3o utilizados exclusivamente para:",
+      "text": "A Emp\u00f3rio da M\u00fasica est\u00e1 em conformidade com a Lei Geral de Prote\u00e7\u00e3o de Dados (LGPD - Lei n\u00ba 13.709/2018). Os dados pessoais coletados durante o atendimento (nome, telefone, e-mail, endere\u00e7o) s\u00e3o utilizados exclusivamente para:"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57226664395512,
+            "r": 313.4177218590381,
+            "b": 35.50518178553773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 7",
+      "text": "P\u00e1gina 7"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.0,
+            "t": 804.8222656439551,
+            "r": 279.4417570500001,
+            "b": 797.7551807855377,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos",
+      "text": "Emp\u00f3rio da M\u00fasica Manual de Pol\u00edticas e Procedimentos"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 90.0,
+            "t": 767.7783198735449,
+            "r": 276.934243180542,
+            "b": 758.9444642974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "\u00b7 Processamento e entrega de pedidos.",
+      "text": "Processamento e entrega de pedidos.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 90.0,
+            "t": 751.4047848735449,
+            "r": 350.821443655542,
+            "b": 742.5709292974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "\u00b7 Comunica\u00e7\u00e3o sobre status de pedidos e rastreamento.",
+      "text": "Comunica\u00e7\u00e3o sobre status de pedidos e rastreamento.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 90.0,
+            "t": 735.0307608735449,
+            "r": 461.9549054055419,
+            "b": 726.1969052974276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "\u00b7 Envio de promo\u00e7\u00f5es e novidades (mediante consentimento expl\u00edcito do cliente).",
+      "text": "Envio de promo\u00e7\u00f5es e novidades (mediante consentimento expl\u00edcito do cliente).",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 90.0,
+            "t": 718.6572258735449,
+            "r": 304.130694880542,
+            "b": 709.8233702974277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "\u00b7 Cumprimento de obriga\u00e7\u00f5es legais e fiscais.",
+      "text": "Cumprimento de obriga\u00e7\u00f5es legais e fiscais.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.0,
+            "t": 686.7841793210449,
+            "r": 497.6516999609619,
+            "b": 647.2862606199276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            192
+          ]
+        }
+      ],
+      "orig": "Dados de clientes n\u00e3o s\u00e3o compartilhados com terceiros para fins de marketing. O cliente pode solicitar a exclus\u00e3o de seus dados a qualquer momento entrando em contato pelo WhatsApp ou e-mail.",
+      "text": "Dados de clientes n\u00e3o s\u00e3o compartilhados com terceiros para fins de marketing. O cliente pode solicitar a exclus\u00e3o de seus dados a qualquer momento entrando em contato pelo WhatsApp ou e-mail."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.0,
+            "t": 598.9003876320897,
+            "r": 222.0924182819238,
+            "b": 586.5329899580335,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "10. Disposi\u00e7\u00f5es Finais",
+      "text": "10. Disposi\u00e7\u00f5es Finais",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.0,
+            "t": 573.6904298735449,
+            "r": 520.9522539167481,
+            "b": 534.1925111724277,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "orig": "Este manual \u00e9 um documento interno da Emp\u00f3rio da M\u00fasica e deve ser utilizado como refer\u00eancia por todos os membros da equipe de atendimento, incluindo o assistente virtual. As pol\u00edticas descritas neste documento est\u00e3o sujeitas a atualiza\u00e7\u00f5es peri\u00f3dicas.",
+      "text": "Este manual \u00e9 um documento interno da Emp\u00f3rio da M\u00fasica e deve ser utilizado como refer\u00eancia por todos os membros da equipe de atendimento, incluindo o assistente virtual. As pol\u00edticas descritas neste documento est\u00e3o sujeitas a atualiza\u00e7\u00f5es peri\u00f3dicas."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 72.0,
+            "t": 523.6943398735449,
+            "r": 508.7850632609618,
+            "b": 484.1964211724276,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            239
+          ]
+        }
+      ],
+      "orig": "Em caso de d\u00favidas sobre a aplica\u00e7\u00e3o de qualquer pol\u00edtica, o atendente deve consultar a ger\u00eancia antes de fornecer informa\u00e7\u00f5es ao cliente. O objetivo \u00e9 sempre garantir transpar\u00eancia, precis\u00e3o e a melhor experi\u00eancia poss\u00edvel para o cliente.",
+      "text": "Em caso de d\u00favidas sobre a aplica\u00e7\u00e3o de qualquer pol\u00edtica, o atendente deve consultar a ger\u00eancia antes de fornecer informa\u00e7\u00f5es ao cliente. O objetivo \u00e9 sempre garantir transpar\u00eancia, precis\u00e3o e a melhor experi\u00eancia poss\u00edvel para o cliente."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 171.79925550000002,
+            "t": 419.4780237389551,
+            "r": 423.47850769945796,
+            "b": 409.76078214144866,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Emp\u00f3rio da M\u00fasica - Sua m\u00fasica come\u00e7a aqui.",
+      "text": "Emp\u00f3rio da M\u00fasica - Sua m\u00fasica come\u00e7a aqui."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 200.0769975,
+            "t": 407.2729482175,
+            "r": 395.19858039,
+            "b": 399.3224780002327,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "\u00daltima atualiza\u00e7\u00e3o: Junho de 2025 - Vers\u00e3o 2.1",
+      "text": "\u00daltima atualiza\u00e7\u00e3o: Junho de 2025 - Vers\u00e3o 2.1"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 8,
+          "bbox": {
+            "l": 281.8621875,
+            "t": 42.57226664395512,
+            "r": 313.4177218590381,
+            "b": 35.50518178553773,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "P\u00e1gina 8",
+      "text": "P\u00e1gina 8"
+    }
+  ],
+  "pictures": [],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 71.43524169921875,
+            "t": 499.22247314453125,
+            "r": 523.9729614257812,
+            "b": 331.20477294921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 130.06080450000002,
+              "t": 350.98827967895505,
+              "r": 163.94157592229004,
+              "b": 359.82213525507234,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Campo",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 345.8098185,
+              "t": 350.98827967895505,
+              "r": 399.69256214729,
+              "b": 359.82213525507234,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Informa\u00e7\u00e3o",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 372.6262253260449,
+              "r": 133.18055714554197,
+              "b": 381.0183885540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Raz\u00e3o Social",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 372.6262253260449,
+              "r": 429.30877252945805,
+              "b": 381.0183885540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Emp\u00f3rio da M\u00fasica Instrumentos Musicais Ltda.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 393.30029532604493,
+              "r": 141.6186064440381,
+              "b": 401.6924585540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Nome Fantasia",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 393.30029532604493,
+              "r": 308.4987563190381,
+              "b": 401.6924585540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Emp\u00f3rio da M\u00fasica",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 413.9743653260449,
+              "r": 102.04112265,
+              "b": 422.3665285540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "CNPJ",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 413.9743653260449,
+              "r": 312.23445126903806,
+              "b": 422.3665285540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "12.345.678/0001-90",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 434.64843532604493,
+              "r": 117.88813791903809,
+              "b": 443.0405985540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Endere\u00e7o",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 434.64843532604493,
+              "r": 507.4314702690382,
+              "b": 443.0405985540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Rua 14 de Maio, 3200 - Centro, Campo Grande - MS, 79202-333",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 455.3225053260449,
+              "r": 164.84300639403807,
+              "b": 463.7146685540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Telefone / WhatsApp",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 455.43359010395505,
+              "r": 294.4053766109619,
+              "b": 464.26744568007234,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "(67) 3341-4444",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 476.5715353260449,
+              "r": 104.147811970542,
+              "b": 484.9636985540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "E-mail",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 476.5715353260449,
+              "r": 374.5900763532519,
+              "b": 484.9636985540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "contato@emp\u00f3riodamusica.com.br",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 497.24560532604494,
+              "r": 119.47325909403808,
+              "b": 505.6377685540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Funda\u00e7\u00e3o",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 227.25,
+              "t": 497.24560532604494,
+              "r": 248.3707543440381,
+              "b": 505.6377685540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "2008",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 8,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 130.06080450000002,
+                "t": 350.98827967895505,
+                "r": 163.94157592229004,
+                "b": 359.82213525507234,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Campo",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 345.8098185,
+                "t": 350.98827967895505,
+                "r": 399.69256214729,
+                "b": 359.82213525507234,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Informa\u00e7\u00e3o",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 372.6262253260449,
+                "r": 133.18055714554197,
+                "b": 381.0183885540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Raz\u00e3o Social",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 372.6262253260449,
+                "r": 429.30877252945805,
+                "b": 381.0183885540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Emp\u00f3rio da M\u00fasica Instrumentos Musicais Ltda.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 393.30029532604493,
+                "r": 141.6186064440381,
+                "b": 401.6924585540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Nome Fantasia",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 393.30029532604493,
+                "r": 308.4987563190381,
+                "b": 401.6924585540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Emp\u00f3rio da M\u00fasica",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 413.9743653260449,
+                "r": 102.04112265,
+                "b": 422.3665285540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "CNPJ",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 413.9743653260449,
+                "r": 312.23445126903806,
+                "b": 422.3665285540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "12.345.678/0001-90",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 434.64843532604493,
+                "r": 117.88813791903809,
+                "b": 443.0405985540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Endere\u00e7o",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 434.64843532604493,
+                "r": 507.4314702690382,
+                "b": 443.0405985540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Rua 14 de Maio, 3200 - Centro, Campo Grande - MS, 79202-333",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 455.3225053260449,
+                "r": 164.84300639403807,
+                "b": 463.7146685540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Telefone / WhatsApp",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 455.43359010395505,
+                "r": 294.4053766109619,
+                "b": 464.26744568007234,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "(67) 3341-4444",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 476.5715353260449,
+                "r": 104.147811970542,
+                "b": 484.9636985540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "E-mail",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 476.5715353260449,
+                "r": 374.5900763532519,
+                "b": 484.9636985540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "contato@emp\u00f3riodamusica.com.br",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 497.24560532604494,
+                "r": 119.47325909403808,
+                "b": 505.6377685540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Funda\u00e7\u00e3o",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 227.25,
+                "t": 497.24560532604494,
+                "r": 248.3707543440381,
+                "b": 505.6377685540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2008",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 71.52257537841797,
+            "t": 228.89239501953125,
+            "r": 524.0814819335938,
+            "b": 144.163330078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 177.09727500000002,
+              "t": 621.042479678955,
+              "r": 192.6549034859619,
+              "b": 629.8763352550723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Dia",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 392.851164,
+              "t": 621.042479678955,
+              "r": 428.40121642229,
+              "b": 629.8763352550723,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Hor\u00e1rio",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 642.680415326045,
+              "r": 171.71273436903806,
+              "b": 651.0725785540069,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Segunda a Sexta-feira",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.0,
+              "t": 642.680415326045,
+              "r": 365.8112942940381,
+              "b": 651.0725785540069,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "09:00 \u00e0s 18:00",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 663.354495326045,
+              "r": 109.98107159403808,
+              "b": 671.7466585540069,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "S\u00e1bado",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.0,
+              "t": 663.354495326045,
+              "r": 365.8112942940381,
+              "b": 671.7466585540069,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "09:00 \u00e0s 13:00",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 684.0285653260448,
+              "r": 162.7253079,
+              "b": 692.4207285540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Domingo e Feriados",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 303.0,
+              "t": 684.0285653260448,
+              "r": 339.9441567690381,
+              "b": 692.4207285540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Fechado",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 4,
+        "num_cols": 2,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 177.09727500000002,
+                "t": 621.042479678955,
+                "r": 192.6549034859619,
+                "b": 629.8763352550723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Dia",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 392.851164,
+                "t": 621.042479678955,
+                "r": 428.40121642229,
+                "b": 629.8763352550723,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Hor\u00e1rio",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 642.680415326045,
+                "r": 171.71273436903806,
+                "b": 651.0725785540069,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Segunda a Sexta-feira",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.0,
+                "t": 642.680415326045,
+                "r": 365.8112942940381,
+                "b": 651.0725785540069,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "09:00 \u00e0s 18:00",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 663.354495326045,
+                "r": 109.98107159403808,
+                "b": 671.7466585540069,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "S\u00e1bado",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.0,
+                "t": 663.354495326045,
+                "r": 365.8112942940381,
+                "b": 671.7466585540069,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "09:00 \u00e0s 13:00",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 684.0285653260448,
+                "r": 162.7253079,
+                "b": 692.4207285540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Domingo e Feriados",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 303.0,
+                "t": 684.0285653260448,
+                "r": 339.9441567690381,
+                "b": 692.4207285540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Fechado",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 71.4255599975586,
+            "t": 724.929931640625,
+            "r": 524.81640625,
+            "b": 608.4413757324219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 119.35019325,
+              "t": 125.40234367895505,
+              "r": 149.90197368596193,
+              "b": 134.2361992550724,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Forma",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 253.4508765,
+              "t": 125.40234367895505,
+              "r": 304.5512905859619,
+              "b": 134.2361992550724,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Condi\u00e7\u00f5es",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 411.1035465,
+              "t": 125.40234367895505,
+              "r": 473.89862081096186,
+              "b": 134.2361992550724,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Observa\u00e7\u00f5es",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 147.04028332604491,
+              "r": 92.55487459674805,
+              "b": 155.4324465540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "PIX",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 202.5,
+              "t": 147.04028332604491,
+              "r": 281.1254276190381,
+              "b": 155.4324465540068,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Pagamento \u00e0 vista",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 366.0,
+              "t": 147.04028332604491,
+              "r": 507.9561146940381,
+              "b": 166.35651853900674,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "5% de desconto sobre o pre\u00e7o de tabela",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 178.63842532604497,
+              "r": 149.0158388190381,
+              "b": 187.03058855400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Cart\u00e3o de D\u00e9bito",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 202.5,
+              "t": 178.63842532604497,
+              "r": 281.1254276190381,
+              "b": 187.03058855400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Pagamento \u00e0 vista",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 366.0,
+              "t": 178.63842532604497,
+              "r": 481.0355571,
+              "b": 187.03058855400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Todas as bandeiras aceitas",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 199.312495326045,
+              "r": 152.17681139403808,
+              "b": 207.70465855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Cart\u00e3o de Cr\u00e9dito",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 202.5,
+              "t": 199.312495326045,
+              "r": 278.4738504,
+              "b": 207.70465855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "At\u00e9 12x sem juros",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 366.0,
+              "t": 199.312495326045,
+              "r": 491.5811651190381,
+              "b": 207.70465855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Parcela m\u00ednima de R$ 100,00",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 219.986575326045,
+              "r": 144.2697451440381,
+              "b": 228.37873855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Boleto Banc\u00e1rio",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 202.5,
+              "t": 219.986575326045,
+              "r": 281.1254276190381,
+              "b": 228.37873855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Pagamento \u00e0 vista",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 366.0,
+              "t": 219.986575326045,
+              "r": 509.52225877499995,
+              "b": 228.37873855400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Compensa\u00e7\u00e3o em at\u00e9 3 dias \u00fateis",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 5,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 119.35019325,
+                "t": 125.40234367895505,
+                "r": 149.90197368596193,
+                "b": 134.2361992550724,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Forma",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 253.4508765,
+                "t": 125.40234367895505,
+                "r": 304.5512905859619,
+                "b": 134.2361992550724,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Condi\u00e7\u00f5es",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 411.1035465,
+                "t": 125.40234367895505,
+                "r": 473.89862081096186,
+                "b": 134.2361992550724,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Observa\u00e7\u00f5es",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 147.04028332604491,
+                "r": 92.55487459674805,
+                "b": 155.4324465540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "PIX",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.5,
+                "t": 147.04028332604491,
+                "r": 281.1254276190381,
+                "b": 155.4324465540068,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Pagamento \u00e0 vista",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 366.0,
+                "t": 147.04028332604491,
+                "r": 507.9561146940381,
+                "b": 166.35651853900674,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "5% de desconto sobre o pre\u00e7o de tabela",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 178.63842532604497,
+                "r": 149.0158388190381,
+                "b": 187.03058855400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cart\u00e3o de D\u00e9bito",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.5,
+                "t": 178.63842532604497,
+                "r": 281.1254276190381,
+                "b": 187.03058855400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Pagamento \u00e0 vista",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 366.0,
+                "t": 178.63842532604497,
+                "r": 481.0355571,
+                "b": 187.03058855400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Todas as bandeiras aceitas",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 199.312495326045,
+                "r": 152.17681139403808,
+                "b": 207.70465855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Cart\u00e3o de Cr\u00e9dito",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.5,
+                "t": 199.312495326045,
+                "r": 278.4738504,
+                "b": 207.70465855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "At\u00e9 12x sem juros",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 366.0,
+                "t": 199.312495326045,
+                "r": 491.5811651190381,
+                "b": 207.70465855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Parcela m\u00ednima de R$ 100,00",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 219.986575326045,
+                "r": 144.2697451440381,
+                "b": 228.37873855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Boleto Banc\u00e1rio",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 202.5,
+                "t": 219.986575326045,
+                "r": 281.1254276190381,
+                "b": 228.37873855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Pagamento \u00e0 vista",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 366.0,
+                "t": 219.986575326045,
+                "r": 509.52225877499995,
+                "b": 228.37873855400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Compensa\u00e7\u00e3o em at\u00e9 3 dias \u00fateis",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    },
+    {
+      "self_ref": "#/tables/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 71.38060760498047,
+            "t": 736.5217742919922,
+            "r": 524.937255859375,
+            "b": 651.2534637451172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 99.633276,
+              "t": 114.63574267895501,
+              "r": 154.61889063596192,
+              "b": 123.46959825507236,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Modalidade",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 204.75485774999999,
+              "t": 114.63574267895501,
+              "r": 279.74752169729004,
+              "b": 123.46959825507236,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Prazo Estimado",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 324.41826975,
+              "t": 114.63574267895501,
+              "r": 391.08410977229005,
+              "b": 123.46959825507236,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Rastreamento",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 451.53259275,
+              "t": 114.63574267895501,
+              "r": 485.96978729729005,
+              "b": 123.46959825507236,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Seguro",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 136.273681326045,
+              "r": 140.89324157825195,
+              "b": 144.66584455400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "PAC (Correios)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 187.5,
+              "t": 136.273681326045,
+              "r": 256.632801525,
+              "b": 144.66584455400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "5 a 12 dias \u00fateis",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 307.5,
+              "t": 136.273681326045,
+              "r": 323.85364937825193,
+              "b": 144.66584455400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sim",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 418.5,
+              "t": 136.273681326045,
+              "r": 451.7501755440381,
+              "b": 144.66584455400687,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Inclu\u00eddo",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 156.94799732604497,
+              "r": 154.26075332825195,
+              "b": 165.34016055400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "SEDEX (Correios)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 187.5,
+              "t": 156.94799732604497,
+              "r": 251.353698525,
+              "b": 165.34016055400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "2 a 5 dias \u00fateis",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 307.5,
+              "t": 156.94799732604497,
+              "r": 323.85364937825193,
+              "b": 165.34016055400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sim",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 418.5,
+              "t": 156.94799732604497,
+              "r": 451.7501755440381,
+              "b": 165.34016055400684,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Inclu\u00eddo",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 77.25,
+              "t": 177.62182532604504,
+              "r": 152.70807617825196,
+              "b": 186.01398855400691,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Jadlog (.package)",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 187.5,
+              "t": 177.62182532604504,
+              "r": 251.353698525,
+              "b": 186.01398855400691,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "3 a 8 dias \u00fateis",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 307.5,
+              "t": 177.62182532604504,
+              "r": 323.85364937825193,
+              "b": 186.01398855400691,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "Sim",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 418.5,
+              "t": 177.62182532604504,
+              "r": 451.7501755440381,
+              "b": 186.01398855400691,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 3,
+            "end_col_offset_idx": 4,
+            "text": "Inclu\u00eddo",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 4,
+        "num_cols": 4,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "bbox": {
+                "l": 99.633276,
+                "t": 114.63574267895501,
+                "r": 154.61889063596192,
+                "b": 123.46959825507236,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Modalidade",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 204.75485774999999,
+                "t": 114.63574267895501,
+                "r": 279.74752169729004,
+                "b": 123.46959825507236,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Prazo Estimado",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 324.41826975,
+                "t": 114.63574267895501,
+                "r": 391.08410977229005,
+                "b": 123.46959825507236,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Rastreamento",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 451.53259275,
+                "t": 114.63574267895501,
+                "r": 485.96978729729005,
+                "b": 123.46959825507236,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Seguro",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 136.273681326045,
+                "r": 140.89324157825195,
+                "b": 144.66584455400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "PAC (Correios)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 187.5,
+                "t": 136.273681326045,
+                "r": 256.632801525,
+                "b": 144.66584455400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "5 a 12 dias \u00fateis",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 307.5,
+                "t": 136.273681326045,
+                "r": 323.85364937825193,
+                "b": 144.66584455400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sim",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 418.5,
+                "t": 136.273681326045,
+                "r": 451.7501755440381,
+                "b": 144.66584455400687,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Inclu\u00eddo",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 156.94799732604497,
+                "r": 154.26075332825195,
+                "b": 165.34016055400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "SEDEX (Correios)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 187.5,
+                "t": 156.94799732604497,
+                "r": 251.353698525,
+                "b": 165.34016055400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "2 a 5 dias \u00fateis",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 307.5,
+                "t": 156.94799732604497,
+                "r": 323.85364937825193,
+                "b": 165.34016055400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sim",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 418.5,
+                "t": 156.94799732604497,
+                "r": 451.7501755440381,
+                "b": 165.34016055400684,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Inclu\u00eddo",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 77.25,
+                "t": 177.62182532604504,
+                "r": 152.70807617825196,
+                "b": 186.01398855400691,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Jadlog (.package)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 187.5,
+                "t": 177.62182532604504,
+                "r": 251.353698525,
+                "b": 186.01398855400691,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "3 a 8 dias \u00fateis",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 307.5,
+                "t": 177.62182532604504,
+                "r": 323.85364937825193,
+                "b": 186.01398855400691,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Sim",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 418.5,
+                "t": 177.62182532604504,
+                "r": 451.7501755440381,
+                "b": 186.01398855400691,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Inclu\u00eddo",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 7
+    },
+    "8": {
+      "size": {
+        "width": 596.0,
+        "height": 842.0
+      },
+      "page_no": 8
+    }
+  }
+}
