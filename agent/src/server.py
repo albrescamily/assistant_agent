@@ -54,7 +54,6 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as e:
             span.record_exception(e)
             span.set_status(Status(StatusCode.ERROR))
-            print(f"stream interrupted: {e}")
             self.write_text(f"\n[error: {e}]")
         span.set_attribute("output.value", "".join(reply))  # the full answer, shown on the trace row
 
