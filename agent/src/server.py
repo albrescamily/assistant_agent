@@ -15,7 +15,7 @@ class Handler(BaseHTTPRequestHandler):
         try:
             length = int(self.headers.get("Content-Length", 0))
             body = json.loads(self.rfile.read(length))
-            stream = chat(body["message"])
+            stream = chat(body["message"], body["session_id"])
             first = next(stream, "")  # wait for the first chunk so model errors still return 502
         except (ValueError, KeyError) as e:
             self.send_json(400, {"error": f"invalid request: {e}"})

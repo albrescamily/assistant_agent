@@ -1,20 +1,23 @@
+import argparse
 import codecs
 import json
 import os
 import urllib.error
 import urllib.request
+import uuid
 
 AGENT_URL = os.environ.get("AGENT_URL", "http://localhost:8000")
 
 HELP = """Commands:
+  /new    start a new session
   /help   show this help
   /exit   quit"""
 
 
-def send(message):
+def send(session_id, message):
     request = urllib.request.Request(
         f"{AGENT_URL}/chat",
-        data=json.dumps({"message": message}).encode(),
+        data=json.dumps({"session_id": session_id, "message": message}).encode(),
         headers={"Content-Type": "application/json"},
     )
     try:
@@ -27,7 +30,12 @@ def send(message):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--session", help="resume an existing session id")
+    session_id = parser.parse_args().session or str(uuid.uuid4())
+
     print(f"Music store assistant ({AGENT_URL}). Type /help to see the commands.")
+    print(f"session: {session_id}")
 
     while True:
         try:
@@ -43,10 +51,14 @@ def main():
         if user_input == "/help":
             print(HELP)
             continue
+        if user_input == "/new":
+            session_id = str(uuid.uuid4())
+            print(f"new session: {session_id}")
+            continue
 
         try:
             print("\nassistant> ", end="", flush=True)
-            for text in send(user_input):
+            for text in send(session_id, user_input):
                 print(text, end="", flush=True)
             print()
         except Exception as e:

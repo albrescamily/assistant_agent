@@ -21,7 +21,8 @@ Rules:
 6. Reply in the user's language. Keep answers short and friendly.
 """
 
-def chat(message):
+def chat(message, session_id):
+    # session_id is not used yet: the memory will be stored per session
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": message},
