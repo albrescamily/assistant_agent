@@ -15,6 +15,7 @@ dependencies = [
     { name = "openai" },
     { name = "openinference-instrumentation-openai" },
     { name = "psycopg", extra = ["binary"] },
+    { name = "pydantic" },
 ]
 
 [package.metadata]
@@ -23,6 +24,7 @@ requires-dist = [
     { name = "openai", specifier = ">=3.42.1" },
     { name = "openinference-instrumentation-openai", specifier = ">=0.1.69" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.6" },
+    { name = "pydantic", specifier = ">=2.14.2" },
 ]
 
 [[package]]

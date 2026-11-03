@@ -2,7 +2,7 @@ from openai import OpenAI
 from agent.memory import Memory
 import os
 from prompts.system_prompts import SYSTEM_PROMPT
-from tools.tools import TOOLS
+from tools.registry import TOOLS
 from agent.executor import run_tool
 
 client = OpenAI(base_url=os.environ["LLM_URL"], api_key="ollama")
