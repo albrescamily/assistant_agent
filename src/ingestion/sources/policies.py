@@ -5,7 +5,7 @@ from docling.document_converter import DocumentConverter
 from docling_core.transforms.chunker.tokenizer.huggingface import HuggingFaceTokenizer
 from transformers import AutoTokenizer
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data"  # sources/ -> ingestion/ -> project root
+DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"  # sources/ -> ingestion/ -> src/ -> project root
 PDF_PATH = DATA_DIR / "políticas_da_loja.pdf"
 OUTPUT_DIR = DATA_DIR / "generated"
 

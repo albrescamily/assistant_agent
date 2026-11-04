@@ -5,7 +5,7 @@ from clients.embedding import embed
 from sources.policies import chunk_policies
 from sources.products import read_products
 
-OUTPUT_DIR = Path(__file__).parent.parent / "data" / "generated"
+OUTPUT_DIR = Path(__file__).parent.parent.parent / "data" / "generated"  # ingestion/ -> src/ -> project root
 
 
 def save_csv(path, rows, vectors):
@@ -13,7 +13,7 @@ def save_csv(path, rows, vectors):
 
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(columns + ["embedding"])  # must match the column list in db/05-vector-load.sql
+        writer.writerow(columns + ["embedding"])  # must match the column list in src/db/05-vector-load.sql
         for row, vector in zip(rows, vectors, strict=True):  # strict: fails if the server returned fewer vectors
             writer.writerow([row[column] for column in columns] + [str(vector)])  # "[0.1, -0.2, ...]" is pgvector's text format
 

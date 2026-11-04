@@ -2,7 +2,7 @@ import csv
 import json
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data"  # sources/ -> ingestion/ -> project root
+DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"  # sources/ -> ingestion/ -> src/ -> project root
 PRODUCTS_PATH = DATA_DIR / "products.csv"
 CATEGORIES_PATH = DATA_DIR / "categories.csv"
 

@@ -1,11 +1,11 @@
 services:
   llm:
     build:
-      context: ./llm
+      context: ./src/llm
       args:
         MODEL: ${MODEL}
     env_file:
-      - ./llm/.env
+      - ./src/llm/.env
     ports:
       - "11434:11434"
     volumes:
@@ -25,9 +25,9 @@ services:
 
   agent:
     build:
-      context: ./agent
+      context: ./src/agent
     env_file:
-      - ./agent/.env
+      - ./src/agent/.env
     environment:
       - MODEL=${MODEL}
       - PHOENIX_COLLECTOR_ENDPOINT=http://phoenix:6006
@@ -37,7 +37,7 @@ services:
     volumes:
       - ./data:/app/data
       - agent_memory:/app/memory_data
-      - ./logs:/app/logs  # one file per session, readable from your machine
+      - ./src/logs:/app/logs  # one file per session, readable from your machine
     depends_on:
       llm:
         condition: service_healthy
@@ -65,9 +65,9 @@ services:
 
   pg-database:
     build:
-      context: ./db
+      context: ./src/db
     env_file:
-      - ./db/.env
+      - ./src/db/.env
     ports:
       - "5432:5432"
     volumes:
