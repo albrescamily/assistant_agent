@@ -4,6 +4,18 @@ A Melody é um agente de atendimento por texto para a Empório da Música, uma l
 
 Tudo roda localmente com Docker: o modelo de linguagem, o de embeddings, o banco e a observabilidade.
 
+## Exemplos de conversa
+
+Para ver a Melody funcionando sem rodar nada, abra a pasta [`examples/`](examples/). Ela tem três conversas completas, geradas com o agente rodando de verdade. Cada arquivo é uma sessão inteira de um cliente simulado, e cada cliente testa um conjunto diferente de comportamentos:
+
+| Arquivo | Cliente | O que a conversa mostra |
+|---|---|---|
+| [`examples/alice.md`](examples/alice.md) | Iniciante comprando o primeiro violão | Busca por significado, produto específico, políticas e memória |
+| [`examples/bob.md`](examples/bob.md) | Cliente consultando pedidos | Verificação por email, encadeamento pedido + política, privacidade e perguntas com até três ferramentas |
+| [`examples/tom.md`](examples/tom.md) | Cliente em inglês | Idioma, escopo, produto esgotado, prompt injection e pedido de atendimento humano |
+
+As mensagens de cada cliente estão em `scenarios/cases.py`, com um comentário indicando a ferramenta que cada uma testa. Para gerar as conversas de novo no seu ambiente, veja [Rodar os cenários de exemplo](#rodar-os-cenários-de-exemplo).
+
 ---
 
 Working notes do projeto no meu blog pessoal:
@@ -14,6 +26,7 @@ https://learning-out-loud.vercel.app/projects/agent-assistant-for-music-store
 ## Sumário
 
 - [Melody: agente de atendimento da Empório da Música](#melody-agente-de-atendimento-da-empório-da-música)
+  - [Exemplos de conversa](#exemplos-de-conversa)
   - [Sumário](#sumário)
   - [Como funciona](#como-funciona)
   - [Como rodar](#como-rodar)
@@ -45,7 +58,6 @@ https://learning-out-loud.vercel.app/projects/agent-assistant-for-music-store
   - [O que eu faria se tivesse mais tempo](#o-que-eu-faria-se-tivesse-mais-tempo)
     - [Limitações conhecidas](#limitações-conhecidas)
   - [Suposições sobre os dados](#suposições-sobre-os-dados)
-  - [Exemplos de conversa](#exemplos-de-conversa)
   - [Uso de assistentes de código](#uso-de-assistentes-de-código)
 
 ---
@@ -542,16 +554,6 @@ O manual de políticas tem inconsistências. Onde precisei escolher, a escolha e
 - **Dois emails:** com e sem acento em "empório".
 - **Parcelamento:** a tabela de pagamentos e a seção 3.1 descrevem regras diferentes de valor mínimo de parcela.
 - **Data de entrega:** a tabela de pedidos tem só a data estimada, não a data real de entrega; prazos de devolução são calculados a partir dela.
-
----
-
-## Exemplos de conversa
-
-Gerados com `python scenarios/run.py`. Cada cenário é uma conversa completa em uma sessão:
-
-- [`examples/alice.md`](examples/alice.md): cliente iniciante comprando um violão (busca, produto específico, políticas e memória)
-- [`examples/bob.md`](examples/bob.md): consultas de pedidos (verificação por email, encadeamento pedido + política, privacidade e perguntas com até três ferramentas)
-- [`examples/tom.md`](examples/tom.md): cliente em inglês (idioma, escopo, produto esgotado, prompt injection e pedido de atendimento humano)
 
 ---
 
