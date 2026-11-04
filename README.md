@@ -465,7 +465,7 @@ O agente expõe um endpoint HTTP (`POST /chat`) que responde em streaming de tex
 
 Sobre o streaming: a resposta vai sendo enviada enquanto o modelo escreve, com uma exceção. A primeira resposta de cada mensagem não vai em streaming, porque ela precisa existir inteira para ser verificada. Depois que uma ferramenta roda, a resposta se apoia nos dados retornados, e o resto segue em streaming.
 
-Com `--user`, a CLI salva a sessão em `sessions.json`, e a conversa continua de onde parou quando a CLI é aberta de novo. É assim que os cenários de Alice, Bob e Tom mostram a memória funcionando.
+Com `--user`, a CLI salva a sessão em `sessions.json`, e a conversa continua de onde parou quando a CLI é aberta de novo. Os cenários de Alice, Bob e Tom não usam esse arquivo: o `scenarios/run.py` cria uma sessão nova a cada execução, para que uma rodada anterior não interfira na próxima, e a memória aparece dentro da própria conversa, nas perguntas que dependem das mensagens anteriores.
 
 ### 9. Garantias em código 
 
