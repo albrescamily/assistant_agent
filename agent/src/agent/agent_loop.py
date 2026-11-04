@@ -16,9 +16,20 @@ FALLBACK_REPLY = "Deixa eu confirmar esse valor no sistema: qual produto você q
 MAX_ROUNDS = 4  # tool rounds per message; stops a model that keeps asking for tools forever
 
 
-def invented_price(answer):
-    # a price ("R$" followed by a number) in an answer that called no tool can only have come from the model's head
-    return not answer.tool_calls and re.search(r"R\$\s*\d", answer.content or "") is not None
+def to_number(token):
+    # "1.299,90", "1299,90" and "1299.90" are the same amount: a dot before exactly 3 digits separates thousands
+    token = re.sub(r"\.(?=\d{3}(?!\d))", "", token)
+    return float(token.replace(",", "."))
+
+
+def invented_price(answer, conversation):
+    # a price ("R$" followed by a number) in an answer that called no tool is invented,
+    # unless that amount already appeared in the conversation (an earlier reply, or the customer's own budget)
+    if answer.tool_calls:
+        return False
+    prices = {to_number(n) for n in re.findall(r"R\$\s*(\d+(?:[.,]\d+)*)", answer.content or "")}
+    known = {to_number(n) for n in re.findall(r"\d+(?:[.,]\d+)*", conversation)}
+    return not prices <= known
 
 
 def first_answer(messages):
@@ -79,9 +90,11 @@ def chat(message, session_id):
 
     turn_start = len(messages)  # everything appended after this is what the model did in this turn
     discarded_answer = None
+    # earlier messages plus this one; the system prompt stays out, its example prices aren't real
+    conversation = " ".join([m["content"] for m in history] + [message])
 
     answer = first_answer(messages)
-    if invented_price(answer):
+    if invented_price(answer, conversation):
         # an event on the request's span in Phoenix, with the answer the customer never saw
         trace.get_current_span().add_event("guardrail.invented_price", {"discarded_answer": answer.content or ""})
         discarded_answer = answer.content
@@ -94,7 +107,7 @@ def chat(message, session_id):
     reply = []
     if not tool_calls:
         # checked before sending: if the retry still made a price up, the customer gets the safe reply instead
-        text = FALLBACK_REPLY if invented_price(answer) else answer.content or ""
+        text = FALLBACK_REPLY if invented_price(answer, conversation) else answer.content or ""
         reply.append(text)
         yield text
     else:
