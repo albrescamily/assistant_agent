@@ -1,4 +1,5 @@
 from agent.memory import Memory
+from agent.session_log import log_turn
 import os
 import re
 from opentelemetry import trace
@@ -76,10 +77,14 @@ def chat(message, session_id):
         {"role": "user", "content": message},
     ]
 
+    turn_start = len(messages)  # everything appended after this is what the model did in this turn
+    discarded_answer = None
+
     answer = first_answer(messages)
     if invented_price(answer):
         # an event on the request's span in Phoenix, with the answer the customer never saw
         trace.get_current_span().add_event("guardrail.invented_price", {"discarded_answer": answer.content or ""})
+        discarded_answer = answer.content
         messages.append({"role": "system", "content": RETRY_INSTRUCTION})
         answer = first_answer(messages)
 
@@ -103,3 +108,5 @@ def chat(message, session_id):
                 break
 
     memory.save_exchange(message, "".join(reply))
+    # tool calls, tool results and retry instructions, in the order they happened
+    log_turn(session_id, message, {"discarded_answer": discarded_answer, "steps": messages[turn_start:]}, "".join(reply))

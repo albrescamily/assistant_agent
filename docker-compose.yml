@@ -31,11 +31,13 @@ services:
     environment:
       - MODEL=${MODEL}
       - PHOENIX_COLLECTOR_ENDPOINT=http://phoenix:6006
+      - LOG_DIR=/app/logs
     ports:
       - "8000:8000"
     volumes:
       - ./data:/app/data
       - agent_memory:/app/memory_data
+      - ./logs:/app/logs  # one file per session, readable from your machine
     depends_on:
       llm:
         condition: service_healthy
