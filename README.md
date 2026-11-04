@@ -57,7 +57,6 @@ https://learning-out-loud.vercel.app/projects/agent-assistant-for-music-store
     - [11. Observabilidade](#11-observabilidade)
   - [O que eu faria se tivesse mais tempo](#o-que-eu-faria-se-tivesse-mais-tempo)
     - [Limitações conhecidas](#limitações-conhecidas)
-  - [Suposições sobre os dados](#suposições-sobre-os-dados)
   - [Uso de assistentes de código](#uso-de-assistentes-de-código)
 
 ---
@@ -522,7 +521,7 @@ Os traces e os logs contêm dados pessoais, como emails e pedidos. Para um prot�
 
 **Uma camada de observabilidade mais robusta.** Pensei em usar o **Langfuse**, que junta tracing, versionamento de prompts, datasets de avaliação e métricas de custo e qualidade num lugar só, e se encaixaria bem com o sistema de avaliação acima. Mas, rodando localmente, ele traria vários serviços novos para o Docker Compose, e a complexidade do projeto aumentaria bastante para um protótipo. O Phoenix cobre o essencial com um container só.
 
-**Tratamento e normalizacao.** Trataria os dados devidamente considerando que estão com inconsistências e dados sensíveis
+**Tratamento e normalizacao dos dados.** Trataria os dados devidamente considerando que estão com inconsistências e dados sensíveis
 
 
 Vale reforçar: ficar sem frameworks, tanto para o agente quanto para essas camadas, foi uma decisão consciente para mostrar os fundamentos. Com mais tempo, e com o projeto indo para produção, eu adotaria ferramentas prontas onde elas economizam trabalho de verdade, como o Langfuse para observabilidade e avaliação.
@@ -546,17 +545,6 @@ Um exemplo legal para tratar os dados sensiveis aparecendo nos traces, é oque c
 
 ---
 
-## Suposições sobre os dados
-
-O manual de políticas tem inconsistências. Onde precisei escolher, a escolha está registrada aqui:
-
-- **Dois números de WhatsApp:** (67) 3341-4444 na tabela de dados da empresa e (67) 3321-4500 na seção 7, que descreve o canal de atendimento. Usei o da seção 7. 
-- **Dois emails:** com e sem acento em "empório".
-- **Parcelamento:** a tabela de pagamentos e a seção 3.1 descrevem regras diferentes de valor mínimo de parcela.
-- **Data de entrega:** a tabela de pedidos tem só a data estimada, não a data real de entrega; prazos de devolução são calculados a partir dela.
-
----
-
 ## Uso de assistentes de código
 
 Usei o **Claude** como mentor técnico ao longo do projeto. Ele me ajudou a:
@@ -567,6 +555,6 @@ Usei o **Claude** como mentor técnico ao longo do projeto. Ele me ajudou a:
 
 As decisões de arquitetura, a lógica e a forma de resolver os problemas foram minhas. Entre elas: usar um modelo local, escrever o loop do agente e a memória sem framework, colocar o pgvector no mesmo banco dos dados da loja, fazer a ingestão offline e pensar nos guardrails e nos *structured outputs* (os contratos das ferramentas) para tornar o agente mais confiável.
 
-Nenhum codigo gerado por ele foi commitado sem o devido supervisionamento. Nada foi levado de barriga. 
+Nenhum codigo gerado por ele foi commitado sem o devido supervisionamento. Nada foi empurrado com a barriga. 
 
 
